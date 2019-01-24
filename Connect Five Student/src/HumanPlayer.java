@@ -33,6 +33,6 @@ public class HumanPlayer extends Player
 
     public Player freshCopy()
     {
-        return new RandomComputer(letter);
+        return new HumanPlayer(name, letter);
     }
 }
